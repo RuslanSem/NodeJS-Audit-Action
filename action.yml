@@ -1,4 +1,4 @@
-name: 'NPM Audit Action'
+name: 'NodeJS Audit Action'
 description: 'Run npm audit to check for vulnerabilities in Node.js projects.'
 author: 'RuslanSem'
 inputs:
