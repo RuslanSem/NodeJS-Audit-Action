@@ -1,4 +1,4 @@
-# NPM Audit Action
+# NodeJS Audit Action
 
 This GitHub Action runs `npm audit` to check for vulnerabilities in your Node.js project.
 
@@ -7,7 +7,7 @@ This GitHub Action runs `npm audit` to check for vulnerabilities in your Node.js
 Create a workflow file (e.g., `node.yml`) in your repository:
 
 ```yaml
-name: NPM Audit
+name: NodeJS Audit Action
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - name: Run NPM Audit
+      - name: Run NodeJS Audit Action
         uses: RuslanSem/npm-audit-action@v1
         with:
           node-version: 'latest'
